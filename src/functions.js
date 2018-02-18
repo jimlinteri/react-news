@@ -2,7 +2,7 @@ export function getTopHeadlines() {
   return fetch('https://newsapi.org/v2/top-headlines?language=en&country=us', {
     method:'get',
     headers: {
-      'X-Api-Key': '34439670ddf040a5ab225cee99b13d35',
+      'X-Api-Key': '<your api-key>',
       'Content-Type': 'application/x-www-form-urlencoded'
     }});
 }
@@ -14,7 +14,7 @@ export function getSearchResult(text) {
   return fetch(uri, {
     method:'get',
     headers: {
-      'X-Api-Key': '34439670ddf040a5ab225cee99b13d35',
+      'X-Api-Key': '<your api-key>',
       'Content-Type': 'application/x-www-form-urlencoded'
     }});
 
